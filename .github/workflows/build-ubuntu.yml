@@ -98,7 +98,7 @@ jobs:
           TAG: ${{ matrix.TYPE }}-${{ matrix.TAG }}
           LATEST_TAG: ${{ matrix.TYPE }}-latest
           FROM_IMAGE: ghcr.io/catthehacker/ubuntu
-          FROM_TAG: js-${{ matrix.TAG }}-latest
+          FROM_TAG: js-latest
           BUILD_TAG_VERSION: ${{ env.PART_TAG }}
           PUSH_LATEST: ${{ env.LATEST_TAG == matrix.TAG && '1' || '' }}
           PUSH_DEFAULT: ${{ ( github.event_name != 'pull_request' && github.event_name != 'push' && !env.ACT ) && '1' || '' }}
