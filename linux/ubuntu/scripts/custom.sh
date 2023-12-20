@@ -35,25 +35,25 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/ilikenwf/apt-fast/master/q
 case "$(uname -m)" in
   'aarch64')
     scripts=(
-      basic
-      gh
-      pwsh
-      go
-      js
-      dotnet
+      #basic
+      #gh
+      #pwsh
+      #go
+      #js
+      #dotnet
       mycustomtools
     )
     ;;
   'x86_64')
     scripts=(
-      basic
-      gh
-      pwsh
-      go
-      js
-      rust
-      vcpkg
-      dotnet
+      #basic
+      #gh
+      #pwsh
+      #go
+      #js
+      #rust
+      #vcpkg
+      #dotnet
       mycustomtools
     )
     ;;
