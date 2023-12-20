@@ -20,7 +20,7 @@ on:
 env:
   IMAGE_LABEL_OWNER: ${{ github.repository_owner }}
   IMAGE_LABEL_REPO: ${{ github.repository }}
-  SLUG: ${{ github.repository_owner }}/ubuntu
+  SLUG: ${{ github.repository_owner }}/circleci-ubuntu
   DISTRO: ubuntu
   NODE: '16 18'
   BUILD_REF: ${{ github.sha }}
