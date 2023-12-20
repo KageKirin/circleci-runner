@@ -61,7 +61,7 @@ jobs:
           rm -r "$AGENT_TOOLSDIRECTORY" || :
         shell: bash
       - name: Force SLUG to lowercase
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: n/a
           script: |
