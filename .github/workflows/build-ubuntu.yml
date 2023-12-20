@@ -90,7 +90,7 @@ jobs:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Build and push ${{ env.DISTRO }}:${{ env.TAG }}
         shell: buildah unshare pwsh "{0}"
