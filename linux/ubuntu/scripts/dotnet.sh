@@ -26,8 +26,8 @@ prependEtcEnvironmentPath "${DOTNET_ROOT}"
 which dotnet
 dotnet --version
 dotnet --info
-#dotnet --list-sdks
-#dotnet --list-runtimes
+dotnet --list-sdks
+dotnet --list-runtimes
 printf "\n\t🐋 Installed .NET 🐋\t\n"
 
 
