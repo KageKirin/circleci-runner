@@ -40,7 +40,7 @@ case "$(uname -m)" in
       #pwsh
       #go
       #js
-      #dotnet
+      dotnet
       extras
       mycustomtools
     )
@@ -54,7 +54,7 @@ case "$(uname -m)" in
       #js
       #rust
       #vcpkg
-      #dotnet
+      dotnet
       extras
       mycustomtools
     )
