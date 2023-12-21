@@ -5,12 +5,6 @@ set -Eeuo pipefail
 
 . /etc/environment
 
-printf "\n\t🐋 Installing METAGEN 🐋\t\n"
-npm install -g https://github.com/kagekirin/metagen-js/tarball/main
-which metagen
-metagen --version
-metagen --help
-
 printf "\n\t🐋 Installing version tools 🐋\t\n"
 npm install -g https://github.com/kagekirin/node-package-version/tarball/main
 which node-package-version

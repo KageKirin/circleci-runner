@@ -42,7 +42,8 @@ case "$(uname -m)" in
       #js
       dotnet
       extras
-      mycustomtools
+      metagen
+      versiontools
     )
     ;;
   'x86_64')
@@ -56,7 +57,8 @@ case "$(uname -m)" in
       #vcpkg
       dotnet
       extras
-      mycustomtools
+      metagen
+      versiontools
     )
     ;;
   *) exit 1 ;;
