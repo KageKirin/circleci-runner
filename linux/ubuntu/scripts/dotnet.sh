@@ -13,7 +13,7 @@ printf "\n\t🐋 Installing .NET 🐋\t\n"
 curl -LO https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
 cat ./dotnet-install.sh
 bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel STS  # net 7.0
-bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel LTS  # net 6.0
+bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel LTS  # net 8.0
 rm ./dotnet-install.sh
 export DOTNET_ROOT=/opt/hostedtoolcache/dotnet
 export PATH=$PATH:$DOTNET_ROOT
