@@ -41,6 +41,7 @@ case "$(uname -m)" in
       #go
       #js
       #dotnet
+      extras
       mycustomtools
     )
     ;;
@@ -54,6 +55,7 @@ case "$(uname -m)" in
       #rust
       #vcpkg
       #dotnet
+      extras
       mycustomtools
     )
     ;;
