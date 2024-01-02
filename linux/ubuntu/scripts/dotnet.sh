@@ -46,6 +46,7 @@ EOF
 {
   echo "DOTNET_TOOLS_ROOT=${DOTNET_TOOLS_ROOT}"
   echo "PATH=\$PATH:\$DOTNET_TOOLS_ROOT"
+  alias nugettier="dotnet-nugettier"
 } | tee -a /etc/environment
 
 printf "\n\t🐋 Installed .NET Tools 🐋\t\n"
