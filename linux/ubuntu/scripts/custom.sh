@@ -58,6 +58,7 @@ case "$(uname -m)" in
       dotnet
       extras
       xq
+      yq
       metagen
       versiontools
     )
