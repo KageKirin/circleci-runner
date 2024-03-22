@@ -57,6 +57,7 @@ case "$(uname -m)" in
       #vcpkg
       dotnet
       extras
+      xq
       metagen
       versiontools
     )
