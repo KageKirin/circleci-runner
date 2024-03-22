@@ -15,6 +15,7 @@ apt-get install -y \
     sed \
     moreutils \
     jq \
+    xq \
     zsh \
     cmake \
     apt-utils \
