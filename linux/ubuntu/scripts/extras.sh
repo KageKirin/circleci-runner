@@ -19,5 +19,6 @@ apt-get install -y \
     cmake \
     apt-utils \
     snap \
+    dos2unix \
 
 printf "\n\t🐋 Installed Extras 🐋\t\n"
