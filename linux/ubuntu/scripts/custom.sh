@@ -57,6 +57,7 @@ case "$(uname -m)" in
       #vcpkg
       dotnet
       extras
+      brew
       xq
       yq
       metagen
