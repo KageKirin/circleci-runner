@@ -23,6 +23,7 @@ apt-get install -y \
     build-essential \
     procps \
     file \
+    gcc \
 
 
 printf "\n\t🐋 Installed Extras 🐋\t\n"
