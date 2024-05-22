@@ -20,5 +20,9 @@ apt-get install -y \
     apt-utils \
     snap \
     dos2unix \
+    build-essential \
+    procps \
+    file \
+
 
 printf "\n\t🐋 Installed Extras 🐋\t\n"
