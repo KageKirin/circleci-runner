@@ -44,7 +44,7 @@ case "$(uname -m)" in
       extras
       metagen
       versiontools
-      docker
+      #docker
     )
     ;;
   'x86_64')
@@ -63,7 +63,7 @@ case "$(uname -m)" in
       yq
       metagen
       versiontools
-      docker
+      #docker
     )
     ;;
   *) exit 1 ;;
