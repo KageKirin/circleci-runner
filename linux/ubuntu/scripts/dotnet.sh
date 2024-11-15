@@ -15,6 +15,7 @@ cat ./dotnet-install.sh
 bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel 6.0 --version latest  # net 6.0
 bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel STS --version latest  # net 7.0
 bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel LTS --version latest  # net 8.0
+bash ./dotnet-install.sh --install-dir /opt/hostedtoolcache/dotnet --no-path --channel 9.0 --version latest  # net 9.0
 rm ./dotnet-install.sh
 export DOTNET_ROOT=/opt/hostedtoolcache/dotnet
 export PATH=$PATH:$DOTNET_ROOT
